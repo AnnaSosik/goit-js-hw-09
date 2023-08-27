@@ -48,8 +48,8 @@ const options = {
 
 const timer = () => {
   const current = new Date();
-  localStorage.setItem('selecetedData', choosenDate);
-  const saveData = new Date(localStorage.getItem('selectedData'));
+  localStorage.setItem('SelectedDate', choosenDate);
+  const saveData = new Date(localStorage.getItem('SelectedDate'));
 
   if (!saveData) return;
 
